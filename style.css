@@ -1,0 +1,53 @@
+
+.name-div, .email-div, .message-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: 550;
+}
+
+form {
+    padding: 10px 10px 0 10px;
+}
+
+.submit-btn {
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #d7d7d7;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-bottom-color: #c3c3c3;
+    padding: 0 8px;
+    margin-top: 12px;
+
+}
+form:last-child {
+    margin-bottom: 0;
+}
+
+#name, #email {
+    border-color: #c5c5c5;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-width: thin;
+}
+
+#form-message {
+    height: 110px;
+    border-color: #848484;
+}
+
+@media all and (min-width: 600px) {
+    .name-div, .email-div, .message-div {
+        margin-bottom: 20px;
+    }
+    .submit-btn {
+        margin-top: 15px;
+        padding: 0 10px;
+    }
+
+    #form-message {
+        height: 200px;
+    }
+}
