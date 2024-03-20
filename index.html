@@ -3,29 +3,55 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Beginning of title description of Chegg Skill's assignment-->
         <title>Chegg Skill's HTML forms assessment</title>
+        <!--End of title description of Chegg Skill's assignment-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
+        <!--Beginning of 'main' tag-->
         <main>
+            <!--Beginning of 'form' tag-->
             <form action="post" method="post">
+                <!--Beginning of ".name-div" 'div' tag-->
                 <div class="name-div">
+                    <!--Beginning of 'label' tag for "#name" 'text' 'input' tag-->
                     <label for="name">Name:</label>
+                    <!--End of 'label' tag for "#name" 'text' 'input' tag-->
+                    <!--Beginning of "text" 'input' tag containing user's name-->
                     <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    <!--End of "text" 'input' tag containing user's name-->
                 </div>
+                <!--End of ".name-div" 'div' tag-->
+                <!--Beginning of ".email-div" 'div' tag-->
                 <div class="email-div">
+                    <!--Beginning of 'label' tag for "#email" 'email' 'input' tag-->
                     <label for="email">Email:</label>
+                    <!--End of 'label' tag for "#email" 'email' 'input' tag-->
+                    <!--Beginning of "#email" 'email' 'input' tag containing user's email-->
                     <input type="email" id="email" required placeholder="Enter your email">
+                    <!--End of "#email" 'email' 'input' tag containing user's email-->
                 </div>
+                <!--End of ".email-div" 'div' tag-->
+                <!--Beginning of ".message-div" 'div' tag-->
                 <div class="message-div">
+                    <!--Beginning of 'label' tag for "#form-message" 'textarea' 'input' tag-->
                     <label for="form-message">Your message:</label>
+                    <!--End of 'label' tag for "#form-message" 'textarea' 'input' tag-->
+                    <!--Beginning of "#form-message" 'textarea' 'input' tag containing user's message-->
                     <textarea name="message" id="form-message" cols="10
                     " rows="10" placeholder="Enter your message"></textarea>
+                    <!--End of "#form-message" 'textarea' 'input' tag containing user's message-->
                 </div>
+                <!--End of ".message-div" 'div' tag-->
+                <!--Beginning of ".submit-btn" 'submit' 'button' tag-->
                 <button class="submit-btn" type="submit">Submit</button>
+                <!--End of ".submit-btn" 'submit' 'button' tag-->
             </form>
+            <!--End of 'form' tag-->
         </main>
+        <!--End of 'main' tag-->
     </body>
 </html>
