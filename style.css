@@ -1,53 +1,91 @@
 
+/* Beginning of styling for browsers with screen widths under 600px (progressive enhancement). */
+
 .name-div, .email-div, .message-div {
+   /* 'display: flex' and 'flex-direction: column' used on ".name-div", ".email-div" and ".message-div" 'divs' to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     display: flex;
     flex-direction: column;
+    /* Margin for the bottom of ".name-div", ".email-div" and ".message-div" 'divs' set to give the proper spacing that best replicates Chegg Skill's 'HTML forms' assessment web page. */
     margin-bottom: 15px;
+    /* Boldness of font set for the text inside ".name-div", ".email-div" and ".message-div" 'divs' to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     font-weight: 550;
 }
 
 form {
+    /* Padding set on the 'form' tag to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     padding: 10px 10px 0 10px;
 }
 
 .submit-btn {
+    /* Background color of ".submit-btn 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     background-color: white;
+    /* Edges of ".submit-btn" 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-radius: 5px;
+    /* Border width of ".submit-btn" 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-width: 1px;
+    /* Border color of ".submit-btn" 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-color: #d7d7d7;
+    /* The right border of ".submit-btn" 'submit' 'button' tag set to 'solid' to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-right-style: solid;
+    /* The bottom border of ".submit-btn" 'submit' 'button' tag set to 'solid' to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-bottom-style: solid;
+    /* The bottom border color border of ".submit-btn" 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-bottom-color: #c3c3c3;
+    /* Left and right padding of ".submit-btn" 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     padding: 0 8px;
+    /* Top margin of ".submit-btn" 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     margin-top: 12px;
 
 }
 form:last-child {
+    /* The 'form' tag's last child element (".submit-btn" 'submit' 'button' tag) bottom margin set to 0 to avoid unevenness and to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     margin-bottom: 0;
 }
 
 #name, #email {
+    /* Border colors set on "#name" and "#email" 'input' tags to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-color: #c5c5c5;
+    /* The top border of "#name" and "#email" 'input' tags set to 'solid' to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-top-style: solid;
+    /* The left border of "#name" and "#email" 'input' tags set to 'solid' to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-left-style: solid;
+    /* The width of the borders for the "#name" and "#email" 'input' tags set to 'thin' to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-width: thin;
 }
 
 #form-message {
+    /* The height of "#form-message" 'textarea' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page on smaller screens. */
     height: 110px;
+    /* The border color is set on the "#form-message" 'textarea' tag to best replicate Chegg Skill's 'HTML forms' assessment web page. */
     border-color: #848484;
 }
 
+/* End of styling for browsers with screen widths under 600px (progressive enhancement). */
+
+
+/* Beginning of styling for browsers with screen widths 600px or larger (progressive enhancement). */
+
 @media all and (min-width: 600px) {
     .name-div, .email-div, .message-div {
+        /* Margin for the bottom of ".name-div", ".email-div" and ".message-div" 'divs' set to give the proper spacing that best replicates Chegg Skill's 'HTML forms' assessment web page. */
         margin-bottom: 20px;
     }
     .submit-btn {
+        /* Top margin of ".submit-btn" 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
         margin-top: 15px;
+        /* Left and right padding of ".submit-btn" 'submit' 'button' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page. */
         padding: 0 10px;
     }
 
+    form {
+        /* Padding set on the 'form' tag to best replicate Chegg Skill's 'HTML forms' assessment web page. */
+        padding: 12px 12px 0 12px;
+    }
+
     #form-message {
+        /* The height of "#form-message" 'textarea' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page on bigger screens. */
         height: 200px;
     }
 }
+
+/* End of styling for browsers with screen widths 600px or larger (progressive enhancement). */
