@@ -57,7 +57,8 @@ form:last-child {
     /* The height of "#form-message" 'textarea' tag set to best replicate Chegg Skill's 'HTML forms' assessment web page on smaller screens. */
     height: 110px;
     /* The border color is set on the "#form-message" 'textarea' tag to best replicate Chegg Skill's 'HTML forms' assessment web page. */
-    border-color: #848484;
+    /*border-color: #848484;*/
+    border-color: #7c7878;
 }
 
 /* End of styling for browsers with screen widths under 600px (progressive enhancement). */
